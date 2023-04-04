@@ -6,7 +6,9 @@
 }
 body{
     background-color: black;
-   
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 10px;
 }
 .navbar{
     color: antiquewhite;
@@ -33,7 +35,8 @@ body{
     padding-right: 100px;
 }
 .rightStreet{
-    background-color: antiquewhite;
+    background: #DFD6C5;
+
     width: 35%;
     padding: 5px;
     margin: 5px;
@@ -43,14 +46,16 @@ body{
     width: 65%;
 }
 .theimage{
-    background-color: grey;
+    background: #8E886D;
+
     border-radius: 15px;
     margin: 15px;
     padding: 10px;
     
 }
 .upright{
-    background-color: grey;
+    background: #8E886D;
+
     height: 25vh;
     display: flex;
     justify-content: space-between;
@@ -70,14 +75,16 @@ body{
 
 }
 .phot{
-    width: 300px;
+    width: 400px;
+    border-radius: 20px;
 }
 .downright{
      overflow: hidden;
     border-radius: 15px;
     margin: 5px;
     padding: 10px;
-    background-color: rgb(150, 129, 129);
+    background: #B1A48E;
+
     height: 52vh;
 
 }
@@ -131,28 +138,28 @@ body{
 }
 .fistImage:hover{
     transform: scale(1.1);
+    transition-duration: 1.5s;
     z-index:2 ;
     cursor: pointer;
-    transition-duration: 0.5s;
 }
 .twoimg:hover{
     transform: scale(1.1);
+    transition-duration: 1.5s;
     z-index:2 ;
     cursor: pointer;
-    transition-duration: 0.5s;
-
 }
 .phot:hover{
     transform: scale(1.1);
+    transition-duration: 1.5s;
     z-index:2 ;
     cursor: pointer;
-    transition-duration: 0.5s;
+    
 }
 .img2:hover{
     transform: scale(1.1);
+    transition-duration: 1.5s;
     z-index:2;
     cursor: pointer;
-    transition-duration: 0.5s;
 }
 .hline{
     height: 1px;
@@ -166,15 +173,13 @@ body{
     }
 }
 .iems:hover{
-    background: #B1A592;
-
+    background-color: rgb(167, 107, 223);
     cursor: pointer;
 
 
 }
 .arraow:hover{
     transform: scale(2.0);
-    transition-duration: 10ms;
 }
 
 
