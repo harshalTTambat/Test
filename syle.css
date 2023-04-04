@@ -79,13 +79,15 @@ body{
     border-radius: 20px;
 }
 .downright{
-     overflow: hidden;
+   padding: 10px;
     border-radius: 15px;
-    margin: 5px;
-    padding: 10px;
+   margin-left: 10px;
+   margin-top: 5px;
     background: #B1A48E;
+    
+    height: 425px;
 
-    height: 52vh;
+    
 
 }
 .material{
@@ -98,12 +100,18 @@ body{
     height: 50%;
 }
 .downleft{
-    height: 52vh;
+    width: 1105px;
+    height: 430px;
+    margin-left: 15px;
+
 }
 .fistImage{
     width: 25rem;
-    border-radius: 15px;
-    padding: 10px;
+    border-radius: 20px;
+    width: 450px;
+    height: 600px;
+    margin-left: 25px;
+    margin-top: 15px;
     
 }
 .last{
@@ -124,17 +132,15 @@ body{
 }
 .twoimg{
     overflow: hidden;
-    width: 100%;
-    height: 150px;
-    padding: 10px;
-    /* padding-left: 30px; */
-    cursor: pointer;
+    width: 425px;
+    height: 180px;
+    
+    border-radius: 30px;
 }
 .img2{
     border-radius: 50%;
     height: 100px;
-    /* margin-left: 250px; */
-    cursor: pointer;
+    margin-left: 350px;
 }
 .fistImage:hover{
     transform: scale(1.1);
@@ -173,7 +179,8 @@ body{
     }
 }
 .iems:hover{
-    background-color: rgb(167, 107, 223);
+    background: #B1A592;
+
     cursor: pointer;
 
 
